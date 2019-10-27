@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="284.0" style="-fx-background-color: #808080;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="imageZadanie" fitHeight="40.0" fitWidth="186.0" layoutX="53.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lava.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonGo" layoutX="126.0" layoutY="265.0" mnemonicParsing="false" onAction="#buttonActGo" style="-fx-background-color: #FFFFFF;" text="Go" textFill="#800003" />
+      <TextField fx:id="textA" layoutX="72.0" layoutY="95.0" promptText="a" />
+      <TextField fx:id="textB" layoutX="72.0" layoutY="158.0" promptText="b" />
+      <TextField fx:id="textC" layoutX="72.0" layoutY="227.0" promptText="c" />
+      <Label layoutX="46.0" layoutY="99.0" text="a=" />
+      <Label layoutX="46.0" layoutY="162.0" text="b=" />
+      <Label layoutX="47.0" layoutY="231.0" text="c=" />
+      <TextField fx:id="serverPort" layoutX="72.0" layoutY="53.0" promptText="Server Port" />
+   </children>
+</Pane>
